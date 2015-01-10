@@ -1,0 +1,308 @@
+.assembly program
+{
+}
+.class private auto ansi beforefieldinit Program
+       extends [mscorlib]System.Object
+{
+.field public int32 number
+.field public int32 operationCount
+.method public hidebysig specialname rtspecialname 
+                        instance void  .ctor() cil managed
+                    {
+.maxstack  16
+ldarg.0  
+   call    instance void [mscorlib]System.Object::.ctor()
+ret
+}
+.method public hidebysig specialname instance void
+        Execute() cil managed
+{
+.maxstack  16
+.locals (
+[0] class ProgramRedirect ProgramRedirect_func_local
+)
+ldarg.0
+    ldc.i4.s 1
+stfld int32 Program::number
+ldarg.0
+    ldc.i4.s 0
+stfld int32 Program::operationCount
+ldarg.0
+newobj     instance void ProgramRedirect::.ctor(class Program)
+stloc.0
+ldloc.0
+    ldc.i4.s 1
+call instance int32 ProgramRedirect::Execute(int32 )
+    call void [mscorlib]System.Console::WriteLine(int32)
+ret 
+ }
+}
+.class private auto ansi beforefieldinit ProgramRedirect
+       extends [mscorlib]System.Object
+{
+.field private class Program Program_func
+.field public int32 result
+.method public hidebysig specialname rtspecialname 
+                        instance void  .ctor(class Program Program_func) cil managed
+                    {
+.maxstack  16
+ldarg.0  
+   call    instance void [mscorlib]System.Object::.ctor()
+ldarg.0   
+                        ldarg.1  
+                        stfld     class Program ProgramRedirect::Program_func
+ret
+}
+.method public hidebysig specialname instance int32
+        Execute(int32 x) cil managed
+{
+.maxstack  16
+.locals (
+[0] class Program_RedirectMult Program_RedirectMult_func_local,
+[1] class Program_RedirectAdd Program_RedirectAdd_func_local
+)
+  ldarg.0
+  ldfld class Program ProgramRedirect::Program_func
+  ldarg.0
+  ldfld class Program ProgramRedirect::Program_func
+ldfld int32 Program::operationCount
+    ldc.i4.s 1
+    add
+stfld int32 Program::operationCount
+  ldarg.0
+  ldfld class Program ProgramRedirect::Program_func
+ldfld int32 Program::operationCount
+    ldc.i4.s 3
+    ble.s L_0003
+    ldc.i4.s 1
+    br.s L_0004
+  L_0003:
+    ldc.i4.s 0
+  L_0004:
+    brfalse.s L_0001
+ldarg.0
+ldarg.1
+stfld int32 ProgramRedirect::result
+    br.s L_0002
+  L_0001:
+  ldarg.0
+  ldfld class Program ProgramRedirect::Program_func
+ldfld int32 Program::operationCount
+    ldc.i4.s 2
+    bgt.s L_0007
+    ldc.i4.s 1
+    br.s L_0008
+  L_0007:
+    ldc.i4.s 0
+  L_0008:
+    brfalse.s L_0005
+ldarg.0
+ldarg.0 
+ ldfld  class Program ProgramRedirect::Program_func
+ldarg.0
+newobj     instance void Program_RedirectMult::.ctor(class Program,class ProgramRedirect)
+stloc.0
+ldloc.0
+ldarg.1
+call instance int32 Program_RedirectMult::Execute(int32 )
+stfld int32 ProgramRedirect::result
+    br.s L_0006
+  L_0005:
+ldarg.0
+ldarg.0 
+ ldfld  class Program ProgramRedirect::Program_func
+ldarg.0
+newobj     instance void Program_RedirectAdd::.ctor(class Program,class ProgramRedirect)
+stloc.1
+ldloc.1
+ldarg.1
+call instance int32 Program_RedirectAdd::Execute(int32 )
+stfld int32 ProgramRedirect::result
+  L_0006:
+  L_0002:
+ldarg.0
+ldfld int32 ProgramRedirect::result
+ret 
+ }
+}
+.class private auto ansi beforefieldinit Program_RedirectAdd
+       extends [mscorlib]System.Object
+{
+.field private class Program Program_func
+.field private class ProgramRedirect ProgramRedirect_func
+.field public int32 result
+.method public hidebysig specialname rtspecialname 
+                        instance void  .ctor(class Program Program_func,class ProgramRedirect ProgramRedirect_func) cil managed
+                    {
+.maxstack  16
+ldarg.0  
+   call    instance void [mscorlib]System.Object::.ctor()
+ldarg.0   
+                        ldarg.1  
+                        stfld     class Program Program_RedirectAdd::Program_func
+ldarg.0   
+                        ldarg.2  
+                        stfld     class ProgramRedirect Program_RedirectAdd::ProgramRedirect_func
+ret
+}
+.method public hidebysig specialname instance int32
+        Execute(int32 x) cil managed
+{
+.maxstack  16
+.locals (
+[0] class Program_RedirectRefreshNumber Program_RedirectRefreshNumber_func_local,
+[1] class ProgramRedirect ProgramRedirect_func_local
+)
+  ldarg.0
+  ldfld class Program Program_RedirectAdd::Program_func
+ldarg.0 
+ ldfld  class Program Program_RedirectAdd::Program_func
+ldarg.0 
+ ldfld  class ProgramRedirect Program_RedirectAdd::ProgramRedirect_func
+newobj     instance void Program_RedirectRefreshNumber::.ctor(class Program,class ProgramRedirect)
+stloc.0
+ldloc.0
+  ldarg.0
+  ldfld class Program Program_RedirectAdd::Program_func
+ldfld int32 Program::number
+call instance int32 Program_RedirectRefreshNumber::Execute(int32 )
+stfld int32 Program::number
+ldarg.0
+ldarg.0 
+ ldfld  class Program Program_RedirectAdd::Program_func
+newobj     instance void ProgramRedirect::.ctor(class Program)
+stloc.1
+ldloc.1
+ldarg.1
+  ldarg.0
+  ldfld class Program Program_RedirectAdd::Program_func
+ldfld int32 Program::number
+    add
+call instance int32 ProgramRedirect::Execute(int32 )
+stfld int32 Program_RedirectAdd::result
+ldarg.0
+ldfld int32 Program_RedirectAdd::result
+ret 
+ }
+}
+.class private auto ansi beforefieldinit Program_RedirectMult
+       extends [mscorlib]System.Object
+{
+.field private class Program Program_func
+.field private class ProgramRedirect ProgramRedirect_func
+.field public int32 result
+.method public hidebysig specialname rtspecialname 
+                        instance void  .ctor(class Program Program_func,class ProgramRedirect ProgramRedirect_func) cil managed
+                    {
+.maxstack  16
+ldarg.0  
+   call    instance void [mscorlib]System.Object::.ctor()
+ldarg.0   
+                        ldarg.1  
+                        stfld     class Program Program_RedirectMult::Program_func
+ldarg.0   
+                        ldarg.2  
+                        stfld     class ProgramRedirect Program_RedirectMult::ProgramRedirect_func
+ret
+}
+.method public hidebysig specialname instance int32
+        Execute(int32 x) cil managed
+{
+.maxstack  16
+.locals (
+[0] class Program_RedirectRefreshNumber Program_RedirectRefreshNumber_func_local,
+[1] class ProgramRedirect ProgramRedirect_func_local
+)
+  ldarg.0
+  ldfld class Program Program_RedirectMult::Program_func
+ldarg.0 
+ ldfld  class Program Program_RedirectMult::Program_func
+ldarg.0 
+ ldfld  class ProgramRedirect Program_RedirectMult::ProgramRedirect_func
+newobj     instance void Program_RedirectRefreshNumber::.ctor(class Program,class ProgramRedirect)
+stloc.0
+ldloc.0
+  ldarg.0
+  ldfld class Program Program_RedirectMult::Program_func
+ldfld int32 Program::number
+call instance int32 Program_RedirectRefreshNumber::Execute(int32 )
+stfld int32 Program::number
+ldarg.0
+ldarg.0 
+ ldfld  class Program Program_RedirectMult::Program_func
+newobj     instance void ProgramRedirect::.ctor(class Program)
+stloc.1
+ldloc.1
+ldarg.1
+  ldarg.0
+  ldfld class Program Program_RedirectMult::Program_func
+ldfld int32 Program::number
+    mul
+call instance int32 ProgramRedirect::Execute(int32 )
+stfld int32 Program_RedirectMult::result
+ldarg.0
+ldfld int32 Program_RedirectMult::result
+ret 
+ }
+}
+.class private auto ansi beforefieldinit Program_RedirectRefreshNumber
+       extends [mscorlib]System.Object
+{
+.field private class Program Program_func
+.field private class ProgramRedirect ProgramRedirect_func
+.field public int32 result
+.method public hidebysig specialname rtspecialname 
+                        instance void  .ctor(class Program Program_func,class ProgramRedirect ProgramRedirect_func) cil managed
+                    {
+.maxstack  16
+ldarg.0  
+   call    instance void [mscorlib]System.Object::.ctor()
+ldarg.0   
+                        ldarg.1  
+                        stfld     class Program Program_RedirectRefreshNumber::Program_func
+ldarg.0   
+                        ldarg.2  
+                        stfld     class ProgramRedirect Program_RedirectRefreshNumber::ProgramRedirect_func
+ret
+}
+.method public hidebysig specialname instance int32
+        Execute(int32 tmp) cil managed
+{
+.maxstack  16
+.locals (
+)
+ldarg.0
+ldarg.1
+    ldc.i4.s 1
+    add
+stfld int32 Program_RedirectRefreshNumber::result
+ldarg.0
+ldfld int32 Program_RedirectRefreshNumber::result
+ret 
+ }
+}
+.class private auto ansi beforefieldinit PROGRAM
+       extends [mscorlib]System.Object
+{
+    .method public hidebysig specialname rtspecialname 
+        instance void  .ctor() cil managed
+    {
+        .maxstack  8
+        ldarg.0
+        call       instance void [mscorlib]System.Object::.ctor()
+        ret
+    }
+  .method private hidebysig static void  Main(string[] args)
+            cil managed
+    {
+    .entrypoint
+        .custom instance void [mscorlib]System.
+                STAThreadAttribute::.ctor() = ( 01 00 00 00 )
+    .locals ([0] class Program p)
+ newobj     instance void Program::.ctor()
+        stloc.0                         // store to variable 0
+        ldloc.0
+        call   instance void Program::Execute()
+ret
+}
+}

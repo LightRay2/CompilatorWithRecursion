@@ -1,0 +1,74 @@
+C:\Documents and Settings\solomatin\projects\MathExprExtTree_Antlr\obj\Debug\MathExpr.exe
+C:\Documents and Settings\solomatin\projects\MathExprExtTree_Antlr\obj\Debug\MathExpr.pdb
+C:\Documents and Settings\solomatin\projects\MathExprExtTree_Antlr\bin\Debug\MathExpr.exe
+C:\Documents and Settings\solomatin\projects\MathExprExtTree_Antlr\bin\Debug\MathExpr.pdb
+C:\Documents and Settings\solomatin\projects\MathExprExtTree_Antlr\bin\Debug\Antlr3.Runtime.dll
+C:\Documents and Settings\solomatin\projects\MathExprExtTree_Antlr\bin\Debug\Antlr3.Runtime.xml
+C:\Documents and Settings\solomatin\projects\MathExprExtTree_Antlr\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\solomatin\1\MathExprExtTree_Antlr\obj\Debug\MathExpr.exe
+C:\Users\solomatin\1\MathExprExtTree_Antlr\obj\Debug\MathExpr.pdb
+C:\Users\solomatin\1\MathExprExtTree_Antlr\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\solomatin\1\MathExprExtTree_Antlr\bin\Debug\MathExpr.exe
+C:\Users\solomatin\1\MathExprExtTree_Antlr\bin\Debug\MathExpr.pdb
+C:\Users\solomatin\1\MathExprExtTree_Antlr\bin\Debug\Antlr3.Runtime.dll
+C:\Users\solomatin\1\MathExprExtTree_Antlr\bin\Debug\Antlr3.Runtime.xml
+C:\Users\123\Desktop\Pascal_Antlr\obj\Debug\MathExpr.exe
+C:\Users\123\Desktop\Pascal_Antlr\obj\Debug\MathExpr.pdb
+C:\Users\123\Desktop\Pascal_Antlr\bin\Debug\MathExpr.exe
+C:\Users\123\Desktop\Pascal_Antlr\bin\Debug\MathExpr.pdb
+C:\Users\123\Desktop\Pascal_Antlr\bin\Debug\Antlr3.Runtime.dll
+C:\Users\123\Desktop\Pascal_Antlr\bin\Debug\Antlr3.Runtime.xml
+C:\Users\123\Desktop\Pascal_Antlr\obj\Debug\ResolveAssemblyReference.cache
+D:\docum\_PROJECTS\Pascal_Antlr\bin\Debug\MathExpr.exe
+D:\docum\_PROJECTS\Pascal_Antlr\bin\Debug\MathExpr.pdb
+D:\docum\_PROJECTS\Pascal_Antlr\bin\Debug\Antlr3.Runtime.dll
+D:\docum\_PROJECTS\Pascal_Antlr\bin\Debug\Antlr3.Runtime.xml
+D:\docum\_PROJECTS\Pascal_Antlr\obj\Debug\ResolveAssemblyReference.cache
+D:\docum\_PROJECTS\Pascal_Antlr\obj\Debug\MathExpr.exe
+D:\docum\_PROJECTS\Pascal_Antlr\obj\Debug\MathExpr.pdb
+G:\Comp\Pascal_Antlr\obj\Debug\MathExpr.exe
+G:\Comp\Pascal_Antlr\obj\Debug\MathExpr.pdb
+G:\Comp\Pascal_Antlr\bin\Debug\MathExpr.exe
+G:\Comp\Pascal_Antlr\bin\Debug\MathExpr.pdb
+G:\Comp\Pascal_Antlr\bin\Debug\Antlr3.Runtime.dll
+G:\Comp\Pascal_Antlr\bin\Debug\Antlr3.Runtime.xml
+G:\Comp\Pascal_Antlr\obj\Debug\MathExpr.csprojResolveAssemblyReference.cache
+F:\Comp\Pascal_Antlr\bin\Debug\MathExpr.exe
+F:\Comp\Pascal_Antlr\bin\Debug\MathExpr.pdb
+F:\Comp\Pascal_Antlr\bin\Debug\Antlr3.Runtime.dll
+F:\Comp\Pascal_Antlr\bin\Debug\Antlr3.Runtime.xml
+F:\Comp\Pascal_Antlr\obj\Debug\ResolveAssemblyReference.cache
+F:\Comp\Pascal_Antlr\obj\Debug\MathExpr.exe
+F:\Comp\Pascal_Antlr\obj\Debug\MathExpr.pdb
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\bin\Debug\MathExpr.exe.config
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\obj\Debug\MathExpr.exe
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\obj\Debug\MathExpr.pdb
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\bin\Debug\MathExpr.exe
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\bin\Debug\MathExpr.pdb
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\bin\Debug\Antlr3.Runtime.dll
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\bin\Debug\Antlr3.Runtime.xml
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\obj\Debug\ResolveAssemblyReference.cache
+G:\Pascal_Antlr\bin\Debug\MathExpr.exe.config
+G:\Pascal_Antlr\bin\Debug\MathExpr.exe
+G:\Pascal_Antlr\bin\Debug\MathExpr.pdb
+G:\Pascal_Antlr\bin\Debug\Antlr3.Runtime.dll
+G:\Pascal_Antlr\bin\Debug\Antlr3.Runtime.xml
+G:\Pascal_Antlr\obj\Debug\ResolveAssemblyReference.cache
+G:\Pascal_Antlr\obj\Debug\MathExpr.exe
+G:\Pascal_Antlr\obj\Debug\MathExpr.pdb
+C:\Func\bin\Debug\MathExpr.exe.config
+C:\Func\obj\Debug\MathExpr.exe
+C:\Func\obj\Debug\MathExpr.pdb
+C:\Func\bin\Debug\MathExpr.exe
+C:\Func\bin\Debug\MathExpr.pdb
+C:\Func\bin\Debug\Antlr3.Runtime.dll
+C:\Func\bin\Debug\Antlr3.Runtime.xml
+C:\Func\obj\Debug\ResolveAssemblyReference.cache
+D:\Func\bin\Debug\MathExpr.exe.config
+D:\Func\obj\Debug\MathExpr.exe
+D:\Func\obj\Debug\MathExpr.pdb
+D:\Func\bin\Debug\MathExpr.exe
+D:\Func\bin\Debug\MathExpr.pdb
+D:\Func\bin\Debug\Antlr3.Runtime.dll
+D:\Func\bin\Debug\Antlr3.Runtime.xml
+D:\Func\obj\Debug\ResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\bin\Release\MathExpr.exe.config
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\bin\Release\MathExpr.exe
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\bin\Release\MathExpr.pdb
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\bin\Release\Antlr3.Runtime.dll
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\bin\Release\Antlr3.Runtime.xml
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\obj\Release\ResolveAssemblyReference.cache
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\obj\Release\MathExpr.exe
+\\csfs\home$\mubarakshin\Profile\Desktop\Pascal_Antlr\obj\Release\MathExpr.pdb

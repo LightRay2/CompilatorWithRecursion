@@ -1,0 +1,39 @@
+﻿var
+	number,operationCount:integer;
+
+function Redirect(x:integer):integer
+
+	function Add(x:integer):integer
+	begin
+		number := RefreshNumber(number);
+		result := Redirect(x+number);
+	end;
+
+
+	function Mult(x:integer):integer
+	begin
+		number := RefreshNumber(number);
+		result := Redirect(x*number);
+	end;
+
+	function RefreshNumber(tmp:integer):integer
+	begin
+		result := tmp+1;
+	end;
+
+begin
+	operationCount := operationCount+1;
+	if operationCount > 3 then result:= x
+	else
+		if operationCount  <= 2 then
+			result := Mult(x)
+		else
+			result := Add(x);
+end;
+
+	
+begin
+	number:=1;
+	operationCount:=0;
+   write(Redirect(1));
+end.

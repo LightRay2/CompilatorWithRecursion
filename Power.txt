@@ -1,0 +1,30 @@
+﻿function Power2(x:integer):integer
+
+function Twice(y: integer) :integer
+begin
+	result := y*2;
+end;
+
+begin
+	result:=Triple(x);
+end;
+
+
+function Triple(x:integer):integer
+var i:integer;
+begin
+	i:=3;
+	while i>0 do
+	begin
+		x:= Power2(x) ;
+		i:=i-1;
+	end;
+	result := x;
+end;
+
+var
+x:integer;
+begin
+	x:=Triple(1);
+   write(x);
+end.

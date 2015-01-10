@@ -1,0 +1,14 @@
+function A(aa: integer):integer
+var 
+ya: double;
+begin
+	result := aa*2;
+end
+
+var
+x: integer;
+begin
+	x:=1;
+   
+   write(x);
+end.

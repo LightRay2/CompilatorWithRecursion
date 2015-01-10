@@ -1,0 +1,25 @@
+﻿function Factorial(x:integer):integer
+var
+multiplier:integer;
+
+function Mult(x:integer):integer
+begin
+	result := x*multiplier;
+end;
+
+begin
+	result:=1;
+	multiplier:=2;
+	while multiplier <= x do
+	begin
+		result:= Mult(result);
+		multiplier := multiplier+1;
+	end;
+end;
+
+var
+x:integer;
+begin
+	x:=Factorial(5);
+   write(x);
+end.
